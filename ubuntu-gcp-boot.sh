@@ -33,8 +33,8 @@ npm install -g phonegap@latest
 sudo apt-get -y install xrdp 
 sudo apt-get -y install xfce4
 sudo systemctl enable xrdp
-sudo apt-get install xfce4-terminal
-sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon
+sudo apt-get -y install xfce4-terminal
+sudo apt-get -y install mate-core mate-desktop-environment mate-notification-daemon
 # sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
 
 sudo /etc/init.d/xrdp restart
