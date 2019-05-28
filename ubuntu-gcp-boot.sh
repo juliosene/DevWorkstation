@@ -30,7 +30,7 @@ npm install -g phonegap@latest
 
 # Install Remote Desktop
 # sudo apt-get update
-sudo apt-get -y install ubuntu-gnome-desktop --no-install-recommends
+sudo apt-get -y install gnome-session
 # sudo apt-get -y install gnome
 sudo apt-get -y install xrdp 
 # sudo apt-get -y install xfce4
