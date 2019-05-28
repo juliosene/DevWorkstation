@@ -30,11 +30,13 @@ npm install -g phonegap@latest
 
 # Install Remote Desktop
 # sudo apt-get update
+sudo apt-get -y install ubuntu-gnome-desktop --no-install-recommends
+# sudo apt-get -y install gnome
 sudo apt-get -y install xrdp 
-sudo apt-get -y install xfce4
+# sudo apt-get -y install xfce4
 sudo systemctl enable xrdp
-sudo apt-get -y install xfce4-terminal
-sudo apt-get -y install mate-core mate-desktop-environment mate-notification-daemon
+# sudo apt-get -y install xfce4-terminal
+# sudo apt-get -y install mate-core mate-desktop-environment mate-notification-daemon
 # sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
 
 sudo /etc/init.d/xrdp restart
@@ -43,6 +45,6 @@ sudo /etc/init.d/xrdp restart
 sudo snap install code --classic
 
 # Init
-gcloud init
+# gcloud init
 
 
