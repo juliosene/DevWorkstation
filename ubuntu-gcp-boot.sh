@@ -31,6 +31,7 @@ npm install -g phonegap@latest
 # Install Remote Desktop
 # sudo apt-get update
 sudo apt-get -y install gnome-session gdm3
+# For full Ubuntu Desktop experience, uncomment the line below
 # sudo apt-get -y install gnome
 sudo apt-get -y install xrdp 
 # sudo apt-get -y install xfce4
@@ -41,8 +42,17 @@ sudo systemctl enable xrdp
 
 sudo /etc/init.d/xrdp restart
 
+# Install nautilus
+sudo apt-get install nautilus
+
 #  Install Visual Studio
 sudo snap install code --classic
+
+# Chromium
+snap install chromium
+
+# dbeaver-ce
+sudo snap install --edge dbeaver-ce
 
 # Init
 # gcloud init
