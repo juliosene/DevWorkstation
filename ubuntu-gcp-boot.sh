@@ -43,7 +43,7 @@ sudo systemctl enable xrdp
 sudo /etc/init.d/xrdp restart
 
 # Install nautilus
-sudo apt-get install nautilus
+sudo apt-get -y install nautilus
 
 #  Install Visual Studio
 sudo snap install code --classic
